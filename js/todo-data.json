@@ -1,0 +1,7 @@
+{"tasks": [
+  {"task":"HTML I","done":true,"date":"21.04.2020"},
+  {"task":"CSS","done":true,"date":"21.04.2020"},
+  {"task":"Responsive design","done":true,"date":"21.04.2020"},
+  {"task":"JavaScript I","done":true,"date":"29.05.2020"},
+  {"task":"JavaScript II","done":false,"date":"31.07.2020"}
+]}

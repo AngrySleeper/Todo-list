@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>To Do List</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="css/todo.css">
+	</head>
+	<body>
+		<div class="container" id="todo"> 
+			<header>
+				<h1>To Do List</h1>
+				<button type="button" class="clear-btn">X Clear List</button>	
+			</header>
+
+			<select class="filter">
+				<option value="">- Фильтрация -</option>
+				<option value="today">Дедлайн сегодня</option>
+				<option value="expired">Задача просрочена</option>
+				<option value="current">Текущая задача</option>
+			</select>
+
+			<input type="text" placeholder="Поиск..." class="search">
+
+			<form>
+				<input type="text" name="textbox" class="textfield">
+				<button type="button" class="add-btn">Add Item</button>
+			</form>
+			
+			<div class="todo-list">
+				<div class="todo-item">
+					<button type="button" class="del-btn">X</button> <span class="title"></span>
+				</div>
+			</div>
+			
+		</div>
+
+		<script src="js/jquery-3.5.1.min.js"></script>
+		<script src="js/todo.js"></script>
+	</body>
+</html>

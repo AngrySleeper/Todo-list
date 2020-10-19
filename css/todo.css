@@ -1,0 +1,66 @@
+.container{
+  padding: 15px;
+  border: 1px dashed #ccc;
+  width: 315px;
+  margin: 10px auto;
+}
+header{
+	display: flex;
+	justify-content: space-between; 
+}
+h1{
+	margin: 0;
+}
+form{
+	margin: 15px 0 0;
+}
+.clear-btn{
+	border: 0;
+	background: none;
+}
+.add-btn {
+  color: #fff;
+  background: #000;
+  padding: 4px 10px;
+  border: 0;
+  border-radius: 5px;
+}
+
+.todo-list {
+  margin: 15px 0 0;
+}
+
+.todo-item:first-child {
+  display: none;
+}
+
+.del-btn {
+  color: #f00;
+  padding: 0 15px 0;
+  border: 0;
+}
+
+.del-btn:hover {
+  background: #95a5a6;
+  color: #fff
+}
+  
+.title {
+  cursor: default;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+.gray {
+  color: #95a5a6;
+}
+
+.midnightblue {
+  color: #2c3e50;
+}
+
+.search {
+  margin-top: 15px;
+}
